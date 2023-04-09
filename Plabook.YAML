@@ -1,0 +1,10 @@
+- name: Play1
+  hosts: ALL #it runs in all severs mention in the inventory file
+  tasks:
+    - name: Print hello from play1
+    ansible.bulitin.debug:
+      msg: hello from task1 of play1
+
+
+
+
