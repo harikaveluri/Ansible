@@ -1,6 +1,7 @@
-- name: PLAY1
-  hosts: all
-  tasks:
-    -name: PLay1 from Playbook
+-name: play1
+ hosts: all
+ tasks:
+    -name: helelo to play1
      ansible.bulitin.debug:
-      msg: this a playbook for a play
+          msg: hello ansible
+   
