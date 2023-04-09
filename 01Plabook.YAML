@@ -1,7 +1,9 @@
--name: Play1
- hosts: all
- tasks:
-  -name: hello
-   ansible.bulitin.debug:
-      msg:  hello play1
-   
+- name: Play1
+  hosts: all
+  tasks:
+   - name: playtask1
+     ansible.builtin.debug:
+        msg: hello
+
+
+
