@@ -12,9 +12,10 @@
 - name : Play2
   hosts: all
   tasks:
+   - name: Hello  this is the play 2
    ansible.builtin.debug:
       msg:hello i am executing
-      
+
 
 
 
