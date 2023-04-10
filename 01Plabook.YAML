@@ -14,7 +14,8 @@
   tasks:
    - name: Hello  this is the play 2
      ansible.builtin.debug:
-        msg:hello i am executing
+       msg: i am execuing
+    
 
 
 
