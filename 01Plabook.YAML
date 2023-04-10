@@ -13,8 +13,8 @@
   hosts: all
   tasks:
    - name: Hello  this is the play 2
-   ansible.builtin.debug:
-      msg:hello i am executing
+     ansible.builtin.debug:
+        msg:hello i am executing
 
 
 
