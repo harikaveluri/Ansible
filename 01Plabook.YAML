@@ -9,11 +9,12 @@
      ansible.builtin.debug: 
        msg: hello task2
 
-- name : Play2
+
+- name: Play3
   hosts: all
   tasks:
    ansible.builtin.debug:
-      msg: i am execuing
+     msg: hey i am executing
 
 
 
