@@ -13,7 +13,7 @@
 - name: Play3
   hosts: all
   tasks:
-   - name1: stupid
+   - name: stupid
      ansible.builtin.debug:
        msg: hey i am executing
 
