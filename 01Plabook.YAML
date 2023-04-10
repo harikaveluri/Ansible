@@ -13,8 +13,9 @@
 - name: Play3
   hosts: all
   tasks:
-   ansible.builtin.debug:
-     msg: hey i am executing
+   - name: stupid
+     ansible.builtin.debug:
+       msg: hey i am executing
 
 
 
