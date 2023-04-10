@@ -2,8 +2,22 @@
   hosts: all
   tasks:
    - name: playtask1
-     ansible.builtin.debug:
-        msg: hello
+     ansible.builtin.debug: 
+       msg: hello
+
+   - name: playtask2
+     ansible.builtin.debug: 
+       msg: hello task2
+
+- name : Play2
+  hosts: all
+  tasks:
+   ansible.builtin.debug:
+      msg:hello i am executing
+      
+
+
+
 
 
 
